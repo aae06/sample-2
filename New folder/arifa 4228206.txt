@@ -1,0 +1,13 @@
+input1 = int(input(" enter the value: "))
+input2 = int(input(" enter the next value: "))
+input3 = input("enter a symbol (+,-,*,/) to finish the calculation:")
+if   input3 == '+' :
+ print(input1 + input2)
+elif input3 == '-' :
+ print(input1 - input2)
+elif input3 == '*' :
+ print(input1 * input2) 
+elif input3 == '/' :
+ print(input1 / input2) 
+else :
+ print("symbol not identified") 

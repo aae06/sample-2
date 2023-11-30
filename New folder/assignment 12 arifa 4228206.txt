@@ -1,0 +1,20 @@
+input1 = int(input("enter 1st number :"))  
+input2 = int(input("enter 2nd number :"))
+Symbol = input("enter a symbol to calculate")
+def add(a,b,Symbol): 
+ if Symbol == "*":
+    result = (a*b)
+    return result 
+ elif Symbol == "/": 
+    result = (a/b)
+    return result 
+ elif Symbol == "+":
+    result = (a+b) 
+    return result 
+ elif Symbol == "-": 
+    result = (a-b)
+    return result 
+ else: print("undefined symbol") 
+
+final_result = add(input1,input2,Symbol)
+print(final_result)
